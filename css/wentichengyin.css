@@ -1,0 +1,584 @@
+@charset "utf-8";
+/* CSS Document */
+		body,img,ul,li{
+			padding: 0px;
+			margin: 0px;	
+		}
+		 *{cursor:url(../img/光标.ico),auto;}
+		#header{
+			width:1150px;
+			height: 50px;
+			/*border: 1px solid #EA8486;*/
+			margin: 0px auto;
+		}
+		.header{
+			width: 1100px;
+			height: 30px;
+			/*border: 1px solid red;*/
+			margin: 0px auto;
+		}
+		.header-left{
+			width: 180px;
+			height: 40px;
+			/*border: 1px solid green;*/
+			float: left;
+			line-height: 2rem;
+		}
+		.header-middle{
+			height: 40px;
+			/*border: 1px solid green;*/
+			float: left;
+		}
+		.header-right1{
+			width: 300px;
+			height: 40px;
+			/*border: 1px solid #FDF7F7;*/
+			float:left;
+		}
+		.header-right2{
+			width: 50px;
+			height: 40px;
+			/*border: 1px solid #FDF7F7;*/
+			float:right;
+			line-height: 2.8rem;
+		}
+		.header-title{
+			font-family:Microsoft YaHei;
+			font-size:25px;
+			font-weight: bold;
+			color:#3187F3;
+		}
+		#nav{
+			list-style: none;
+			height:50px;
+			line-height: 3rem;
+			float: right;
+			text-align: center;	
+			position:fixed;
+			z-index:999;
+			border-radius: 0px 0px 30px 30px;
+			background: #E3F2FF;
+		}
+		.nav-title{
+			font-family:Microsoft YaHei;
+			text-align:left;
+			font-size:12px;
+			color:#B3B3B3;	
+		}
+		#nav li{
+			height: 20px;
+			margin-left: 0px;
+			float:left;
+			width:120px;
+		}
+		a{
+			font-family:SimHei;
+			text-decoration:none;
+			text-transform:uppercase;
+			color:#424242;
+		}
+		a:hover{
+			color:#F0BBCA;
+		}
+		a:active{
+			color:#4175D8;
+		} 
+		.big1{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big1-left{
+			width: 400px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big1-left1{
+			height: 350px;
+			margin: 150px 50px 0px;
+			float: left;
+		}
+		.big1-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:35px;
+			font-weight: bold;
+		}
+		.big1-left1>h2{
+			font-family:SimHei;
+		}
+		.big1-left2{
+			width: 200px;
+			float: left;
+		}
+		.big1-left2>img{
+			width: 200px;
+			margin: 15px 110px 20px;
+		}
+		.big1-right{
+			width: 600px;
+			height: 600px;
+			/*background-color:antiquewhite;*/
+			float:right;
+			margin: 0 0 0 0;
+		}
+		.big1-right>img{
+			width: 600px;
+		}
+		.big2{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big2-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第二屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big2-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big2-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big2-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 125px 150px 0px;
+			padding: 50px;
+			}
+		.big2-right{
+			width: 650px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big2-right>img{
+			width: 650px;
+			margin: 80px 0px;
+			}
+		.big3{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big3-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第七屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big3-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big3-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big3-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 125px 150px 0px;
+			padding: 50px;
+			}
+		.big3-right{
+			width: 650px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big3-right>img{
+			width: 650px;
+			margin: 0px 0px;
+			}
+		.big4{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big4-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第五屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big4-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big4-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big4-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 65px 150px 0px;
+			padding: 50px;
+			}
+		.big4-right{
+			width: 650px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big4-right>img{
+			width: 650px;
+			margin: 65px 0px;
+			}
+		.big5{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big5-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第六屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big5-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big5-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big5-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 105px 150px 0px;
+			padding: 50px;
+			}
+		.big5-right{
+			width: 650px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big5-right>img{
+			width: 500px;
+			margin: 8px 65px;
+			}
+		.big6{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big6-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第三屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big6-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big6-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big6-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 45px 150px 0px;
+			padding: 50px;
+			}
+		.big6-right{
+			width: 650px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big6-right>img{
+			width: 600px;
+			margin: 80px 0px;
+			}
+		.big7{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big7-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第一屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big7-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big7-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big7-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 45px 0px 0px 150px;
+			padding: 40px 40px 80px;
+			}
+		.big7-right{
+			width: 600px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big7-right>img{
+			width: 600px;
+			margin: 120px 0px;
+			}
+		.big8{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big8-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第五屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big8-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big8-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big8-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 45px 50px 0px 150px;
+			padding: 70px 40px 50px;
+			}
+		.big8-right{
+			width: 600px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big8-right>img{
+			width: 600px;
+			margin: 40px 0px;
+			}
+		.big9{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big9-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第二屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big9-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big9-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big9-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 45px 0px 0px 150px;
+			padding: 70px 40px 50px;
+			}
+		.big9-right{
+			width: 600px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big9-right>img{
+			width: 600px;
+			margin: 60px 0px;
+			}
+		.big10{
+			width: 1150px;
+			height: 600px;
+			/*background-color: #E8E9B9;*/
+			margin: 0px auto;	
+		}
+		.big10-left{
+			width: 450px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			background:url(../img/睡眠概况/第八屏.jpg);no-repeat:10px center;
+			float:left;
+			margin: 0 0 0 0;
+		}
+		.big10-left1>h2{
+			font-family:Microsoft YaHei;
+			font-size:30px;
+			letter-spacing: 5px;
+			color: #FFFFFF;
+			margin: 160px 0px 0px 80px;
+		}
+		.big10-left1>p{
+			font-family:Microsoft YaHei;
+			font-size:15px;
+			color: #FFFFFF;
+			margin: 5px 0px 0px 80px;
+		}
+		
+		.big10-left2>p{
+			width: 300px;
+			height: 150px;
+			background:#f7f7ef;
+			font-family:SimHei;
+			font-size:12px;
+			letter-spacing: 1px;
+			margin: 45px 0px 0px 150px;
+			padding: 70px 40px 50px;
+			}
+		.big10-right{
+			width: 600px;
+			height: 600px;
+			/*background-color:#F79193;*/
+			float:right;
+			}
+		.big10-right>img{
+			width: 600px;
+			margin: 120px 0px;
+			}
+		.big14{
+			width: 1150px;
+			height: 600px;
+			background:url(../img/解决方案/1.jpg);no-repeat:10px center;
+			margin: 0px auto;
+			
+		}
+		
+		.big14-right{
+			width: 400px;
+			height: 200px;
+			/*background-color:#ECACAD;*/
+			float: right;
+			margin: 300px 150px 100px;
+		}
+		.big14-right>p{
+			font-family:SimHei;
+			font-size:16px;
+			letter-spacing: 2px;
+			line-height:25px;
+			color:#FFFFFF;	
+			margin: 10px;
+		}
